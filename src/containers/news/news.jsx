@@ -35,10 +35,10 @@ const News = () => {
 
     useEffect(() => {
         getData(searchQuery, hitsPerPage, page);
+        // eslint-disable-next-line
     }, [hitsPerPage, page]);
 
     const getData = (searchQuery, hitsPerPage, page) => {
-        console.log("getData");
         fetch(
             `${BASE_PATH}${SEARCH_PATH}?${SEARCH_PARAM}${searchQuery}&${HITS_PER_PAGE_PARAM}${hitsPerPage}&${PAGE_PARAM}${page}`
         )
@@ -78,7 +78,6 @@ const News = () => {
         }
     };
 
-    console.log(result, "render");
     return (
         <div className="container">
             <Title title="Hacker News" />
