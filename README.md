@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# "Hacker News App (Reactjs)".
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Приложение для тренировки навыков работы с API.
 
-## Available Scripts
+## Описание:
 
-In the project directory, you can run:
+Страница содержит список новостей с сайта [Hacker news](https://hn.algolia.com/), строку поиска, селект для переключения количества отображаемых новостей и простую пагинацию. Каждая новость отображает название, дату создания, автора, url, количество комментариев, количество поинтов. 
 
-### `npm start`
+[Приложение на GitHub Pages](https://kobmi.github.io/hacker-news/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Функционал:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Поиск по названию новости
+* Выбор количества отображаемых новостей на странице
+* Простая пагинацая с показом текущей и общего количства страниц
 
-### `npm test`
+## Технологии:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Git
+* Fetch API
+* React JS
+* Functional Components
 
-### `npm run build`
+## Установке:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Клонировать репозиторий:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`
+git clone https://github.com/kobmi/hacker-news
+`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+В директории проекта установить и запустить приложение:
 
-### `npm run eject`
+```
+npm install
+npm start
+```
+## В будущем:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Добавление функционала
+* Оптимизация
+* Использовние Redax
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Языки:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* JavaScript
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Библиотеки:
 
-## Learn More
+* Reactjs
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Стили:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Bootswatch](https://bootswatch.com/)
