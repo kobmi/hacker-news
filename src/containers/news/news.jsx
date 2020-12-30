@@ -21,7 +21,7 @@ const SELECT_OPTIONS = [
     },
 ];
 
-const BASE_PATH = "http://hn.algolia.com/api/v1";
+const BASE_PATH = "https://hn.algolia.com/api/v1";
 const SEARCH_PATH = "/search";
 const SEARCH_PARAM = "query=";
 const HITS_PER_PAGE_PARAM = "hitsPerPage=";
